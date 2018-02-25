@@ -20,4 +20,14 @@ public class StackTest {
 		Boolean result = stack.isEmpty();
 		assertFalse("Should be false",result);
 	}
+	
+	@Test
+	public void pushPopIsEmptyTest() {
+		Stack stack = new Stack();
+		String expected = "Hello, World!";
+		stack.push(expected);
+		String actual = stack.pop();
+		Boolean result = stack.isEmpty();
+		assertTrue("Should be true",result);
+	}
 }

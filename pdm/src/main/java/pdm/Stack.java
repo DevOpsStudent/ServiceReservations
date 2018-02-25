@@ -12,5 +12,9 @@ ArrayList<String> stack = new ArrayList<String>();
 		// TODO Auto-generated method stub
 		 stack.add(0,expected);
 	}
+	public String pop() {
+		// TODO Auto-generated method stub
+		return stack.remove(0);
+	}
 
 }
