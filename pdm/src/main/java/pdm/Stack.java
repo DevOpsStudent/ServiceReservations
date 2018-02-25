@@ -8,5 +8,9 @@ ArrayList<String> stack = new ArrayList<String>();
 		// TODO Auto-generated method stub
 		return stack.isEmpty();
 	}
+	public void push(String expected) {
+		// TODO Auto-generated method stub
+		 stack.add(0,expected);
+	}
 
 }
