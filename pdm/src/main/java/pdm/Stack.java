@@ -16,5 +16,11 @@ ArrayList<String> stack = new ArrayList<String>();
 		// TODO Auto-generated method stub
 		return stack.remove(0);
 	}
+	
+	public String peek() {
+		// TODO Auto-generated method stub
+		return stack.get(0);
+	}
+
 
 }

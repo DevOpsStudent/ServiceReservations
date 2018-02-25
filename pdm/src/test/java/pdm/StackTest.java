@@ -30,4 +30,13 @@ public class StackTest {
 		Boolean result = stack.isEmpty();
 		assertTrue("Should be true",result);
 	}
+	@Test
+	public void pushPeekIsEmptyTest() {
+		Stack stack = new Stack();
+		String expected = "Hello, World!";
+		stack.push(expected);
+		String actual = stack.peek();
+		Boolean result = stack.isEmpty();
+		assertFalse("Should be false",result);
+	}
 }
